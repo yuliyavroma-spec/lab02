@@ -1,11 +1,11 @@
-#include <iostream>
-#include <string>
-int
-main()
-{
-  std::string name;
-  std::cout << "Enter your name: ";
-  std::cin >> name;
-  std::cout << "Hello world from @" << name << std::endl;
-  return 0;
+#include <iostream>  // для ввода/вывода
+#include <string>    // для строк
+
+// главная функция программы
+int main() {
+    std::string name;  // имя пользователя
+    std::cout << "Enter your name: ";  // запрос имени
+    std::cin >> name;
+    std::cout << "Hello world from @" << name << std::endl;
+    return 0;
 }
